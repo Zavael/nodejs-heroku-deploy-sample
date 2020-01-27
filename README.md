@@ -1,2 +1,2 @@
 # badand-dev
-Simple dev blog
+Simple dev blog updated #1
