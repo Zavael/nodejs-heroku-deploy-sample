@@ -1,7 +1,7 @@
 {
-  "name": "badand-dev",
+  "name": "nodejs-heroku-deploy-sample",
   "version": "1.0.0",
-  "description": "Simple dev blog webapp",
+  "description": "Node.js sample app deployed to Heroku using GitHub actions",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,17 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zavael/badand-dev.git"
+    "url": "git+https://github.com/Zavael/nodejs-heroku-deploy-sample.git"
   },
   "keywords": [
-    "blog"
+    "nodejs",
+    "heroku"
   ],
-  "author": "badand",
-  "license": "ISC",
+  "author": "Zavael",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zavael/badand-dev/issues"
+    "url": "https://github.com/Zavael/nodejs-heroku-deploy-sample/issues"
   },
-  "homepage": "https://github.com/Zavael/badand-dev#readme",
+  "homepage": "https://github.com/Zavael/nodejs-heroku-deploy-sample#readme",
   "dependencies": {
     "ejs": "^3.0.1",
     "express": "^4.17.1"

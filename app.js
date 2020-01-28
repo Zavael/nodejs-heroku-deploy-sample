@@ -19,19 +19,19 @@ app.use('', function (req, res, next) {
 
 app.get('/', function (req, res) {
     res.render('index', {
-        topicHead: 'Student Form',
+        topicHead: 'Person Form',
     });
     console.log('user accessing index page');
 });
-app.post('/student/add', function (req, res) {
-    var student = {
+app.post('/', function (req, res) {
+    var person = {
         first: req.body.fname,
         last: req.body.lname
     }
-    console.log(student);
+    console.log(person);
     res.render('index', {
-        userValue: student,
-        topicHead: 'Student Form'
+        userValue: person,
+        topicHead: 'Person Form'
     });
 
 });
