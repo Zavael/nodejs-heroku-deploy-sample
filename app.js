@@ -17,12 +17,15 @@ app.use('', function (req, res, next) {
     next();
 })
 
+// route to handle get on base url
 app.get('/', function (req, res) {
     res.render('index', {
         topicHead: 'Person Form',
     });
     console.log('user accessing index page');
 });
+
+// route to handle sending data with POST on base url
 app.post('/', function (req, res) {
     var person = {
         first: req.body.fname,
@@ -35,5 +38,6 @@ app.post('/', function (req, res) {
     });
 
 });
- 
+
+// start the server
 app.listen(port, () => console.log(`Listening on port ${port}`));
